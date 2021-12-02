@@ -181,6 +181,14 @@ def main(argv1):
 #    main("Debug")
     
 if __name__ == "__main__":
+    # out of range error
+    # 環境変数を追加
+    # TESSDATA_PATH = '/usr/local/Cellar/tesseract/4.1.3/share/tessdata'
+    # os.environ['TESSDATA_PREFIX'] = TESSDATA_PATH
+
+    print(sys.argv)
     main(sys.argv[1])
+    # 要素が一つしかない
+    # main(sys.argv[0])
 
 

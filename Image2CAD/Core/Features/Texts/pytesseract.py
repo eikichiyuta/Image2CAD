@@ -60,7 +60,7 @@ CONTRIBUTERS:
 # tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
 # tessdata_dir_config = ' --tessdata-dir "C:/Program Files (x86)/Tesseract-OCR/tessdata"'
 tesseract_cmd = 'tesseract'
-tessdata_dir_config = ' --tessdata-dir "/usr/share/tesseract-ocr/4.00/tessdata"'
+tessdata_dir_config = ' --tessdata-dir "/usr/local/Cellar/tesseract/4.1.3/share/tessdata"'
 
 try:
     import Image
